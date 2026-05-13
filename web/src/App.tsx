@@ -9,7 +9,7 @@ export default function App() {
     setReply("");
     setLoading(true);
 
-    const res = await fetch("https://fullstack-ai-api-cdsc.azurewebsites.net/api/chat", {
+    const res = await fetch("https://fullstack-ai-api-csac.azurewebsites.net/api/chat", {
       method: "POST",
       headers: { "content-type": "application/json" },
       body: JSON.stringify({ message: input }),
